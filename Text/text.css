@@ -1,0 +1,49 @@
+p{
+    font-family: "roboto";
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    width: 309px;
+    line-height: 26px;
+    margin-bottom: 5px;
+}
+
+.stats{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #606060;
+}
+
+.author{
+    color: #606060;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.content{
+    color: #606060;
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 309px;
+    line-height: 25px;
+    margin-bottom: 90px;
+}
+
+.apple-text{
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+}
+
+.shop-now:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

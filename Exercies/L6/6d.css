@@ -1,0 +1,17 @@
+p{
+    text-align: center;
+    font-family: "Montserrat";
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.heading{
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.ud{
+    text-decoration: underline;
+}

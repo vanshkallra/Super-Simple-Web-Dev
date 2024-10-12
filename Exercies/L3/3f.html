@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2f. Challenge Ex</title>
+    <style>
+
+        a{
+            cursor: pointer;
+            color: rgb(0, 113, 133);
+            transition: color 0.15s;
+        }
+
+        a:hover{
+            color: orange;
+        }
+
+
+        .green{
+            color: rgba(0, 118, 0, 0.819);
+            font-weight: bold;
+        }
+
+        .add-to-cart{
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 34px;
+            padding-right: 34px;
+            border: 0;
+            border-radius: 17px;
+            background-color: rgb(255, 216, 20);
+            margin-right: 8px;
+            cursor: pointer;
+
+            transition: background-color 0.15s; opacity: 0.20s;
+        }
+
+        .add-to-cart:hover{
+            background-color: rgba(234, 198, 19, 0.97);
+        }
+
+        .add-to-cart:active{
+            opacity: 0.6;
+        }
+
+
+        .buy-now{
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 34px;
+            padding-right: 34px;
+            border: 0;
+            border-radius: 17px;
+            background-color: rgb(255,164,28);
+            margin-right: 8px;
+            cursor: pointer;
+
+            transition: background-color 0.15s, opacity 0.10s;
+        }
+
+        .buy-now:hover{
+            background-color: rgb(227, 146, 23);
+        }
+
+        .buy-now:active{
+            opacity: 0.6;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="https://amazon.com" target="_blank" class="back-to-amazon">Back to Amazon</a>
+    <h2>Nike Black Running Shoes</h2>
+    <p class="green">$39 - in stock.</p>
+    <p>Free delivery tomorrow</p>
+    <button class="add-to-cart">Add to Cart</button>
+    <button class="buy-now">Buy now</button>
+</body>
+</html>

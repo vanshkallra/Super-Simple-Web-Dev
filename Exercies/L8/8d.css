@@ -1,0 +1,37 @@
+input{
+    border-width: 1.2px;
+    border-color: rgba(71, 69, 69, 0.261);
+    width: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    
+    border-style: solid;
+}
+.first{
+    margin-bottom: 10px;
+}
+.email{
+    display: block;
+    width: 237px;
+    margin-bottom: 10px;
+}
+input::placeholder{
+    font-size: 16px;
+}
+.sign{
+    cursor: pointer;
+    text-align: center;
+    width: 270px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    background-color: rgb(53, 120, 220);
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+}

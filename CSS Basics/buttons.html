@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <style>
+        #subscribe{
+            background-color: rgb(211, 3, 3);
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 16px;
+            padding-right: 16px;
+
+            font-size: smaller;
+
+            border: 0px;
+            border-radius: 2px;
+            cursor: pointer;
+            margin-right: 8px;
+            transition: opacity 0.15s;
+
+            vertical-align: top;
+        }
+
+        .new-subscribe-button{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 16px;
+            padding-right: 16px;
+            
+            background-color: #0f0f0f;
+            color: #fff;
+
+            border: 0;
+            border-radius: 20px;
+            font-size: x-small;
+            font-weight: 600;
+        }
+
+        #subscribe:hover{
+            opacity: 0.8;
+        }
+
+        #subscribe:active{
+            opacity: 0.5;
+        }
+
+        #join{
+            color: rgba(53, 123, 215, 0.932);
+            border-color: rgba(27, 91, 212, 0.855);
+            background-color: white;
+            border-radius: 0;
+            
+            padding-top: 9px;
+            padding-bottom: 9px;
+            padding-left: 16px;
+            padding-right: 16px;
+
+            border-radius: 2px;
+            border-width: 1px;
+            cursor: pointer;
+            margin-right: 8px;
+            transition: background-color 0.25s, color 0.25s;
+            
+            vertical-align: top;
+        }
+
+        #join:hover{
+            background-color: rgba(27, 91, 212, 0.855);
+            color: white;
+            
+        }
+        #join:active{
+            opacity: 0.8;
+        }
+
+
+        .tweet{
+            border-radius: 20px;
+            background-color: rgb(54, 145, 210);
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 0;
+            font-weight: bold;
+            font-size: 17px;
+            cursor: pointer;
+            transition: box-shadow 0.2s;
+        }
+
+        .tweet:hover{
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <button id="subscribe">SUBSCRIBE</button>
+    <button id="join">JOIN</button>
+    <button class="tweet">Tweet</button>
+    <button class="new-subscribe-button">Subscribe</button>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+p{
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.email{
+    font-size: 15px;
+    color: rgb(104, 103, 103);
+    margin-bottom: 7px;
+}
+.email-input{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+    width: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 18px;
+}
+.terms{
+    font-size: 15px;
+    color: rgb(104, 103, 103);
+    margin-bottom: 18px;
+}
+.agree{
+    cursor: pointer;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 30px;
+    background-color: rgb(42, 112, 224);
+    color: white;
+    font-size: 20px;
+
+}
+.agree:hover{
+    opacity: 0.8;
+}
