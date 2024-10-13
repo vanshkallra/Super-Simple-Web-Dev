@@ -4,6 +4,14 @@
     margin-bottom: 10px
 }
 
-.title{
+.search{
+    display: block;
+    
+}
+
+.video-preview{
+    display: inline-block;
     width: 300px;
+    vertical-align: top;
+    margin-right: 15px;
 }
