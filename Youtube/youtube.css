@@ -1,7 +1,7 @@
-.img-1{
+.thumbnail-img{
     width: 300px;
     display: block;
-    margin-bottom: 10px
+    margin-bottom: 12px
 }
 
 .search{
@@ -14,4 +14,51 @@
     width: 300px;
     vertical-align: top;
     margin-right: 15px;
+}
+
+.vid-1{
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-right: 15px;
+}
+
+.channel-img{
+    width: 45px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+}
+.channel-img-icon{
+    width: 100%;
+    display: inline-block;
+    border-radius: 28px;
+}
+
+.vid-info-text{
+    width: 240px;
+    display: inline-block;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: roboto,arial;
+    font-size: 16px;
+}
+
+.title{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.author{
+    margin-bottom: 4px;
+    color: rgb(90, 89, 89);
+}
+
+.stats{
+    color: rgb(90, 89, 89);
 }
