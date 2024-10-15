@@ -1,14 +1,15 @@
-.search{
-    display: block;
-    
-}
-
 .main-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
     row-gap: 40px;
 }
+
+/* .vid-1{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+} */
+
 
 .thumbnail-img{
     width: 100%;
@@ -21,17 +22,15 @@
     grid-template-columns: 55px 1fr;
 }
 
+.vid-info-text{
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+}
+
 
 .channel-img-icon{
     width: 90%;
     border-radius: 28px;
-}
-
-p{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-family: roboto,arial;
-    font-size: 16px;
 }
 
 .title{
@@ -39,6 +38,7 @@ p{
     margin-bottom: 12px;
     font-weight: 500;
     line-height: 25px;
+    font-size: 100%;
 }
 
 .author{

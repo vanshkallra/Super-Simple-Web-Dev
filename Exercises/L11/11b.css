@@ -1,0 +1,13 @@
+.main{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+.one{
+    background-color: cyan;
+}
+.two{
+    background-color: pink;
+}
+.three{
+    background-color: cyan;
+}
