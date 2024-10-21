@@ -1,0 +1,15 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    /* width: 100px; */
+}
+
+.one{
+    background-color: lightpink;
+    width: 200px;
+}
+
+.two{
+    background-color: lightpink;
+    width: 75px;
+}
