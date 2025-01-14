@@ -14,7 +14,11 @@
 .thumbnail-img{
     width: 100%;
     display: block;
-    margin-bottom: 12px
+    /* margin-bottom: 12px; */
+}
+
+.vid-img{
+    margin-bottom: 12px;
 }
 
 .vid-info{
@@ -34,7 +38,7 @@
 }
 
 .title{
-    margin-top: 0px;
+    /* margin-top: 0px; */
     margin-bottom: 12px;
     font-weight: 500;
     line-height: 25px;
