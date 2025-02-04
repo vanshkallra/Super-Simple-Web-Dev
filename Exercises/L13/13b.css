@@ -1,0 +1,27 @@
+.main{
+    display: flex;
+    height: 70px;
+
+}
+
+.first{
+    width: 100px;
+    background-color: pink;
+}
+
+.second{
+    width: 200px;
+    background-color: lightblue;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
