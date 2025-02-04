@@ -7,4 +7,7 @@ p{
 
 body{
     margin: 0;
+    padding-top: 95px;
+    padding-left: 95px;
+    font-family: roboto,arial;
 }
