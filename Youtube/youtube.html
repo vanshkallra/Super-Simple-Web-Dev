@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head> 
 <body>
-    <div class="header">
+    <header class="header">
         <div class="left-sec">
             <img class="hamburger-icon" src="icons/hamburger-menu.svg" alt="" >
             <img class="youtube-icon" src="icons/youtube-logo.svg" alt="" >
@@ -38,13 +38,13 @@
             <div class="upload-icon-button">
                 <img src="icons/upload.svg" alt="" 
                 class="upload-icon">
-                <div class="tooltip">Search with your voice</div>
+                <div class="tooltip">Create</div>
             </div>
            
             <div class="youtube-apps-button">
                 <img src="icons/youtube-apps.svg" alt="" 
                 class="youtube-apps-icon">
-                <div class="tooltip">Search with your voice</div>
+                <div class="tooltip">Youtube Aops</div>
             </div>
             
 
@@ -52,7 +52,7 @@
                 <img src="icons/notifications.svg" alt="" 
                 class="notifications-icon">
                 <div class="notifications-cnt">3</div>
-                <div class="tooltip">Search with your voice</div>
+                <div class="tooltip">Notifications</div>
 
             </div>
             
@@ -60,15 +60,15 @@
             <div class="channel-icon-button">
                 <img src="channel-photos/my-channel.jpeg" alt="" 
                 class="channel-icon">
-                <div class="tooltip">Search with your voice</div>
+                <div class="tooltip">Profile Photo</div>
             </div>
             
         </div>
         
-    </div>
+    </header>
 
 
-    <div class="sidebar">
+    <nav class="sidebar">
         <div class="element">
             <img src="icons/home.svg" alt="">
             <div class="elem-text">Home</div>
@@ -102,190 +102,192 @@
         
 
         
-    </div>
+    </nav>
 
+    <!-- these semantic tags like header, nav, main, section  give meaning to screen readers
+     works same as div tags  -->
+    <main> 
+        <section class="main-grid">
 
-    <div class="main-grid">
-
-        <div class="vid-1">
-            <div class="vid-img">
-                <a href="https://youtube.com/mrbeast">
-                    <img class ="thumbnail-img" src="thumbnails/thumbnail-1.webp" alt="Sundar Pichai with Marquees Brownlee" href="youtube.com/mrbeast">
-                </a>
-                <div class="time-duration">
-                    16:20
-                </div>
-                
-            </div> 
-            <div class="vid-info">
-                <div class="channel-img">
-                    <a href="https://www.youtube.com/c/mkbhd" target="_blank"><img src="channel-photos/channel-1.jpeg" class="channel-img-icon" alt=""></a>
-                </div>
-                <div class="vid-info-text">
-                    <p class="title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
-                    <p class="author">Marques Brownlee</p>
-                    <p class="stats">3.4M views · 6 months ago</p>
+            <div class="vid-1">
+                <div class="vid-img">
+                    <a href="https://youtube.com/mrbeast">
+                        <img class ="thumbnail-img" src="thumbnails/thumbnail-1.webp" alt="Sundar Pichai with Marquees Brownlee" href="youtube.com/mrbeast">
+                    </a>
+                    <div class="time-duration">
+                        16:20
+                    </div>
+                    
+                </div> 
+                <div class="vid-info">
+                    <div class="channel-img">
+                        <a href="https://www.youtube.com/c/mkbhd" target="_blank"><img src="channel-photos/channel-1.jpeg" class="channel-img-icon" alt=""></a>
+                    </div>
+                    <div class="vid-info-text">
+                        <p class="title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <p class="author">Marques Brownlee</p>
+                        <p class="stats">3.4M views · 6 months ago</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        
+            <div class="vid-1">
+                <div class="vid-img">
+                    <img class ="thumbnail-img" src="thumbnails/thumbnail-2.webp" alt="Sundar Pichai with Marquees Brownlee">
+                    <div class="time-duration">
+                        16:20
+                    </div>
+                </div>
+                <div class="vid-info">
+                    <div class="channel-img">
+                        <a href="https://www.youtube.com/c/mkbhd" target="_blank"><img src="channel-photos/channel-2.jpeg" class="channel-img-icon" alt=""></a>
+                    </div>
+                    <div class="vid-info-text">
+                        <p class="title">Try Not To Laugh Challenge #9 </p>
+                        <p class="author">Markiplier</p>
+                        <p class="stats">19M views · 4 years ago</p>
+                    </div>
+                </div>
+            </div>
     
-        <div class="vid-1">
-            <div class="vid-img">
-                <img class ="thumbnail-img" src="thumbnails/thumbnail-2.webp" alt="Sundar Pichai with Marquees Brownlee">
-                <div class="time-duration">
-                    16:20
+            <div class="vid-1">
+                <div class="vid-img">
+                    <img class ="thumbnail-img" src="thumbnails/thumbnail-3.webp" alt="Sundar Pichai with Marquees Brownlee">
+                    <div class="time-duration">
+                        16:20
+                    </div>
+                </div> 
+                <div class="vid-info">
+                    <div class="channel-img">
+                        <a href="https://www.youtube.com/c/mkbhd" target="_blank"><img src="channel-photos/channel-3.jpeg" class="channel-img-icon" alt=""></a>
+                    </div>
+                    <div class="vid-info-text">
+                        <p class="title">
+                            Crazy Tik Toks Taken Moments Before DISASTER</p>
+                        <p class="author">SSSniperWolf</p>
+                        <p class="stats">12M views · 1 year ago </p>
+                    </div>
                 </div>
             </div>
-            <div class="vid-info">
-                <div class="channel-img">
-                    <a href="https://www.youtube.com/c/mkbhd" target="_blank"><img src="channel-photos/channel-2.jpeg" class="channel-img-icon" alt=""></a>
+        
+            <div class="vid-1">
+                <div class="vid-img">
+                    <img class ="thumbnail-img" src="thumbnails/thumbnail-4.webp" alt="Sundar Pichai with Marquees Brownlee">
+                    <div class="time-duration">
+                        16:20
+                    </div>
                 </div>
-                <div class="vid-info-text">
-                    <p class="title">Try Not To Laugh Challenge #9 </p>
-                    <p class="author">Markiplier</p>
-                    <p class="stats">19M views · 4 years ago</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="vid-1">
-            <div class="vid-img">
-                <img class ="thumbnail-img" src="thumbnails/thumbnail-3.webp" alt="Sundar Pichai with Marquees Brownlee">
-                <div class="time-duration">
-                    16:20
-                </div>
-            </div> 
-            <div class="vid-info">
-                <div class="channel-img">
-                    <a href="https://www.youtube.com/c/mkbhd" target="_blank"><img src="channel-photos/channel-3.jpeg" class="channel-img-icon" alt=""></a>
-                </div>
-                <div class="vid-info-text">
-                    <p class="title">
-                        Crazy Tik Toks Taken Moments Before DISASTER</p>
-                    <p class="author">SSSniperWolf</p>
-                    <p class="stats">12M views · 1 year ago </p>
+                <div class="vid-info">
+                    <div class="channel-img">
+                        <a href="https://www.youtube.com/c/mkbhd" target="_blank"><img src="channel-photos/channel-4.jpeg" class="channel-img-icon" alt=""></a>
+                    </div>
+                    <div class="vid-info-text">
+                        <p class="title">
+                            The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+                        <p class="author">Veritasium</p>
+                        <p class="stats">18M views · 4 months ago</p>
+                    </div>
                 </div>
             </div>
-        </div>
     
-        <div class="vid-1">
-            <div class="vid-img">
-                <img class ="thumbnail-img" src="thumbnails/thumbnail-4.webp" alt="Sundar Pichai with Marquees Brownlee">
-                <div class="time-duration">
-                    16:20
+            <div class="vid-1">
+                <div class="vid-img">
+                    <img class ="thumbnail-img" src="thumbnails/thumbnail-5.webp" alt="Sundar Pichai with Marquees Brownlee">
+                    <div class="time-duration">
+                        16:20
+                    </div>
+                </div> 
+                <div class="vid-info">
+                    <div class="channel-img">
+                        <a href="https://www.youtube.com/c/mkbhd" target="_blank"><img src="channel-photos/channel-5.jpeg" class="channel-img-icon" alt=""></a>
+                    </div>
+                    <div class="vid-info-text">
+                        <p class="title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                        <p class="author">CS Dojo</p>
+                        <p class="stats">519K views · 5 years ago</p>
+                    </div>
                 </div>
             </div>
-            <div class="vid-info">
-                <div class="channel-img">
-                    <a href="https://www.youtube.com/c/mkbhd" target="_blank"><img src="channel-photos/channel-4.jpeg" class="channel-img-icon" alt=""></a>
+        
+            <div class="vid-1">
+                <div class="vid-img">
+                    <img class ="thumbnail-img" src="thumbnails/thumbnail-6.webp" alt="Sundar Pichai with Marquees Brownlee">
+                    <div class="time-duration">
+                        16:20
+                    </div>
                 </div>
-                <div class="vid-info-text">
-                    <p class="title">
-                        The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
-                    <p class="author">Veritasium</p>
-                    <p class="stats">18M views · 4 months ago</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="vid-1">
-            <div class="vid-img">
-                <img class ="thumbnail-img" src="thumbnails/thumbnail-5.webp" alt="Sundar Pichai with Marquees Brownlee">
-                <div class="time-duration">
-                    16:20
-                </div>
-            </div> 
-            <div class="vid-info">
-                <div class="channel-img">
-                    <a href="https://www.youtube.com/c/mkbhd" target="_blank"><img src="channel-photos/channel-5.jpeg" class="channel-img-icon" alt=""></a>
-                </div>
-                <div class="vid-info-text">
-                    <p class="title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
-                    <p class="author">CS Dojo</p>
-                    <p class="stats">519K views · 5 years ago</p>
+                <div class="vid-info">
+                    <div class="channel-img">
+                        <a href="https://www.youtube.com/c/mkbhd" target="_blank"><img src="channel-photos/channel-6.jpeg" class="channel-img-icon" alt=""></a>
+                    </div>
+                    <div class="vid-info-text">
+                        <p class="title">Anything You Can Fit In The Circle I’ll Pay For</p>
+                        <p class="author">MrBeast</p>
+                        <p class="stats">141M views · 1 year ago</p>
+                    </div>
                 </div>
             </div>
-        </div>
     
-        <div class="vid-1">
-            <div class="vid-img">
-                <img class ="thumbnail-img" src="thumbnails/thumbnail-6.webp" alt="Sundar Pichai with Marquees Brownlee">
-                <div class="time-duration">
-                    16:20
+            <div class="vid-1">
+                <div class="vid-img">
+                    <img class ="thumbnail-img" src="thumbnails/thumbnail-6.webp" alt="Sundar Pichai with Marquees Brownlee">
+                    <div class="time-duration">
+                        16:20
+                    </div>
+                </div>
+                <div class="vid-info">
+                    <div class="channel-img">
+                        <a href="https://www.youtube.com/c/mkbhd" target="_blank"><img src="channel-photos/channel-6.jpeg" class="channel-img-icon" alt=""></a>
+                    </div>
+                    <div class="vid-info-text">
+                        <p class="title">Anything You Can Fit In The Circle I’ll Pay For</p>
+                        <p class="author">MrBeast</p>
+                        <p class="stats">141M views · 1 year ago</p>
+                    </div>
                 </div>
             </div>
-            <div class="vid-info">
-                <div class="channel-img">
-                    <a href="https://www.youtube.com/c/mkbhd" target="_blank"><img src="channel-photos/channel-6.jpeg" class="channel-img-icon" alt=""></a>
-                </div>
-                <div class="vid-info-text">
-                    <p class="title">Anything You Can Fit In The Circle I’ll Pay For</p>
-                    <p class="author">MrBeast</p>
-                    <p class="stats">141M views · 1 year ago</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="vid-1">
-            <div class="vid-img">
-                <img class ="thumbnail-img" src="thumbnails/thumbnail-6.webp" alt="Sundar Pichai with Marquees Brownlee">
-                <div class="time-duration">
-                    16:20
-                </div>
-            </div>
-            <div class="vid-info">
-                <div class="channel-img">
-                    <a href="https://www.youtube.com/c/mkbhd" target="_blank"><img src="channel-photos/channel-6.jpeg" class="channel-img-icon" alt=""></a>
-                </div>
-                <div class="vid-info-text">
-                    <p class="title">Anything You Can Fit In The Circle I’ll Pay For</p>
-                    <p class="author">MrBeast</p>
-                    <p class="stats">141M views · 1 year ago</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="vid-1">
-            <div class="vid-img">
-                <img class ="thumbnail-img" src="thumbnails/thumbnail-6.webp" alt="Sundar Pichai with Marquees Brownlee">
-                <div class="time-duration">
-                    16:20
-                </div>
-            </div>
-            <div class="vid-info">
-                <div class="channel-img">
-                    <a href="https://www.youtube.com/c/mkbhd" target="_blank"><img src="channel-photos/channel-6.jpeg" class="channel-img-icon" alt=""></a>
-                </div>
-                <div class="vid-info-text">
-                    <p class="title">Anything You Can Fit In The Circle I’ll Pay For</p>
-                    <p class="author">MrBeast</p>
-                    <p class="stats">141M views · 1 year ago</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="vid-1">
-            <div class="vid-img">
-                <img class ="thumbnail-img" src="thumbnails/thumbnail-6.webp" alt="Sundar Pichai with Marquees Brownlee">
-                <div class="time-duration">
-                    16:20
-                </div>
-            </div>
-            <div class="vid-info">
-                <div class="channel-img">
-                    <a href="https://www.youtube.com/c/mkbhd" target="_blank"><img src="channel-photos/channel-6.jpeg" class="channel-img-icon" alt=""></a>
-                </div>
-                <div class="vid-info-text">
-                    <p class="title">Anything You Can Fit In The Circle I’ll Pay For</p>
-                    <p class="author">MrBeast</p>
-                    <p class="stats">141M views · 1 year ago</p>
-                </div>
-            </div>
-        </div>
-
-
-    </div>
     
+            <div class="vid-1">
+                <div class="vid-img">
+                    <img class ="thumbnail-img" src="thumbnails/thumbnail-6.webp" alt="Sundar Pichai with Marquees Brownlee">
+                    <div class="time-duration">
+                        16:20
+                    </div>
+                </div>
+                <div class="vid-info">
+                    <div class="channel-img">
+                        <a href="https://www.youtube.com/c/mkbhd" target="_blank"><img src="channel-photos/channel-6.jpeg" class="channel-img-icon" alt=""></a>
+                    </div>
+                    <div class="vid-info-text">
+                        <p class="title">Anything You Can Fit In The Circle I’ll Pay For</p>
+                        <p class="author">MrBeast</p>
+                        <p class="stats">141M views · 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="vid-1">
+                <div class="vid-img">
+                    <img class ="thumbnail-img" src="thumbnails/thumbnail-6.webp" alt="Sundar Pichai with Marquees Brownlee">
+                    <div class="time-duration">
+                        16:20
+                    </div>
+                </div>
+                <div class="vid-info">
+                    <div class="channel-img">
+                        <a href="https://www.youtube.com/c/mkbhd" target="_blank"><img src="channel-photos/channel-6.jpeg" class="channel-img-icon" alt=""></a>
+                    </div>
+                    <div class="vid-info-text">
+                        <p class="title">Anything You Can Fit In The Circle I’ll Pay For</p>
+                        <p class="author">MrBeast</p>
+                        <p class="stats">141M views · 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+    
+    
+        </section>
+    </main> 
     
     
 </body>
