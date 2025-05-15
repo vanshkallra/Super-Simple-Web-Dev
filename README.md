@@ -1,1 +1,1 @@
-Hi this is my learnings of WebDev , huge shoutout to supersimple.dev
+Hi these are my learnings from WebDev , huge shoutout to supersimple.dev
