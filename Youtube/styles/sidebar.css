@@ -1,10 +1,36 @@
 .sidebar{
     position: fixed;
     width: 80px;
-    left: 0;
+    left: 8px;
     bottom: 0;
-    top : 81px;
+    top : 80px;
     background-color: white;
-    z-index: 0;
+    z-index: 200; /* sidebar on top of header */
+}
 
+.element{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* vertical-align: middle; */
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.element:hover{
+    background-color: lightgray;
+}
+
+
+
+.element img{
+    height: 33px;
+    padding-bottom: 5px;
+}
+
+.element div{
+    font-family: Roboto, Arial;
+    font-size: 13px;
 }

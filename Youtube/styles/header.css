@@ -7,10 +7,10 @@
 
     position: fixed;
     top: 0;
-    left: 0;
+    left: 8px;
     right: 0;
     background-color: white;
-    z-index: 1;
+    z-index: 100; /* 100 gives more space to put below header but on top of other elements . Its like a z-axis*/
 
     border-bottom-width: 1px;
     border-bottom-style: solid;
@@ -41,7 +41,7 @@
     /* background-color: lightpink; */
     flex:1;
     margin-right: 30px;
-    max-width: 650px;
+    max-width: 750px;
     align-items: center;
 
 }
@@ -49,10 +49,11 @@
 .search-bar{
     padding: 12px 12px 12px 12px;
     height: 30px;
+    font-size: 20px;
 
     display: flex;
     flex:1;
-    max-width: 550px;
+    max-width: 750px;
     border-width: 1px;
     border-style: solid;
     border-color: lightgray;
@@ -66,8 +67,9 @@
     font-size: 20px;
 }
 
+
 .search-button{
-    cursor: pointer;
+    /* cursor: pointer; */
     background-color: #F7F7F7;
     height: 55.5px;
     width: 65px;
@@ -79,6 +81,40 @@
 
     margin-right: 15px;
     margin-left: -1px;
+
+}
+
+.search-button, .voice-button, .upload-icon-button, .youtube-apps-button, .notifications-container, .channel-icon-button{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.tooltip{
+    position: absolute;
+    background-color: rgb(94, 91, 91);
+    color: white;
+    padding: 8px 8px 8px 8px;
+    font-size: 14px;
+    bottom: -35px;
+    /* right: 2px; */
+    opacity: 0;
+    transition: opacity 0.20s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.search-button:hover .tooltip,
+.voice-button:hover .tooltip,
+.upload-icon-button:hover .tooltip, 
+.youtube-apps-button:hover .tooltip, 
+.notifications-container:hover .tooltip, 
+.channel-icon-button:hover .tooltip
+{
+    opacity: 1;
 }
 
 .search-img{
